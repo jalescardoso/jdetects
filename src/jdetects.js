@@ -26,6 +26,7 @@
     var instance = {};
     instance.onchange = options.onchange;
     var status = "unknown";
+    var checkStatus;
 
     /**
      * 获取开发者工具状态
